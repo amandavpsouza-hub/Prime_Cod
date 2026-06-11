@@ -1,10 +1,8 @@
-﻿Console.Write("informe um numero:");
-int variavelQueSalvaUmNumero = int.Parse (Console.ReadLine()!);
-
-if (variavelQueSalvaUmNumero % 2 == 0)
-{
-    Console.WriteLine($"Número {variavelQueSalvaUmNumero} é par");
-} else
-{
-     Console.WriteLine($"Número {variavelQueSalvaUmNumero} é impar");
+﻿   
+   int contador = 1;
+   while (contador <= 5) {
+     Console.WriteLine($"{contador++}");
 }
+   
+   
+   
